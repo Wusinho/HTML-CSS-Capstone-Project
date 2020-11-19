@@ -1,3 +1,6 @@
+body > * {
+  font-family: "Poppins", sans-serif;
+}
 nav {
   background-color: #d35749;
 }
@@ -15,6 +18,8 @@ h2 {
 .header__search__form {
   width: 400px;
   background-color: #eee;
+  border-radius: 10px;
+  padding: 20px 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -22,4 +27,5 @@ h2 {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
+  display: none;
 }
