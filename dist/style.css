@@ -1,0 +1,10 @@
+nav {
+  background-color: #d35749;
+}
+h3,
+h2 {
+  color: white;
+}
+.header__search {
+  background-image: url(/assets/students.jpeg);
+}
