@@ -4,14 +4,22 @@ nav {
 h3,
 h2 {
   color: white;
+  text-align: center;
+}
+.header__links a {
+  display: none;
 }
 .header__search {
-  background: url("./assets/students.jpeg");
+  background: url("../assets/students.jpeg") no-repeat center;
 }
-.header__links ul {
-  display: flex;
-  flex-direction: row;
+.header__search__form {
+  width: 400px;
+  background-color: #eee;
+  margin-left: auto;
+  margin-right: auto;
 }
-.header__links strong {
-  display: none;
+.header button {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }

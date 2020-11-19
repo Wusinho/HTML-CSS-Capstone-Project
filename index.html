@@ -11,42 +11,33 @@
     <header class="header">
       <nav class="header__nav">
         <h2>pastashule</h2>
-        <ul class="header__links">
-          <li>
-            <i
-              onclick="location.href='search.html';"
-              class="fas fa-search-location"
-            ></i>
-            <strong>
-              <a class="header-links-text" href="search.html">Clinics</a>
-            </strong>
-          </li>
-          <li>
+        <div class="header__links">
+          <span>
+            <i class="fas fa-search-location"></i>
+            <a class="header-links-text" href="search.html">Clinics</a>
+          </span>
+          <span>
             <i onclick="location.href='#about-us';" class="far fa-user"></i>
-            <strong>
-              <a class="header-links-text" href="#about-us">About</a>
-            </strong>
-          </li>
-          <li>
+            <a class="header-links-text" href="#about-us">About</a>
+          </span>
+          <span>
             <i class="fas fa-rss"></i>
-            <strong> <a href="#">Blog</a> </strong>
-          </li>
-          <li>
+            <a href="#">Blog</a>
+          </span>
+          <span>
             <i onclick="location.href='index.html';" class="fas fa-bars"></i>
-            <strong>
-              <a class="header-links-text" href="index.html">Home</a>
-            </strong>
-          </li>
-        </ul>
+            <a class="header-links-text" href="index.html">Home</a>
+          </span>
+        </div>
       </nav>
       <div class="header__search">
         <h3>PASTA SHULE.. YOUR GATEAWAY TO SCHOOLS IN KENYA.</h3>
-        <form class="header__form">
-          <h4>Search for clinic:</h4>
+        <form class="header__search__form">
+          <h4>SEARCH BY KEYWORD:</h4>
           <input type="text" />
           <button type="button">Search</button>
         </form>
-        <button>how it works</button>
+        <button class="header__button">how it works</button>
       </div>
     </header>
 

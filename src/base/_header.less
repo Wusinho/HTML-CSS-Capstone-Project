@@ -5,18 +5,22 @@ nav {
 h3,
 h2 {
   color: @color-Wtitle;
+  text-align: @text-center;
 }
-
 .header {
+  &__links a {
+    display: @display-none;
+  }
   &__search {
     background: url("../assets/students.jpeg") no-repeat center;
   }
-  &__links ul {
-    display: flex;
-    flex-direction: row;
+  &__search__form {
+    width: 400px;
+    background-color: @color-bg;
+    border-radius: 20px .align-center;
   }
-
-  &__links strong {
-    display: @display-none;
+  button {
+    width: 200px;
+    .align-center;
   }
 }
