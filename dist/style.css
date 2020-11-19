@@ -19,6 +19,7 @@ h5 {
   display: none;
 }
 .header__search {
+  height: 800px;
   background: url("../assets/students.jpeg") no-repeat center;
   display: flex;
   flex-direction: column;
@@ -63,4 +64,63 @@ h5 {
   height: 50px;
   margin-left: auto;
   margin-right: auto;
+}
+.main {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main__article {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 350px;
+  background: #f3f3f0;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.main__section {
+  color: white;
+  padding: 30px 15px;
+}
+.main .section1 {
+  background-color: #e6ac5b;
+}
+.main .section1 button {
+  color: #e6ac5b;
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 10px 5px;
+  border-radius: 3px;
+}
+.main .section2 {
+  background-color: #98a4a5;
+}
+.main .section2 button {
+  color: #98a4a5;
+  background-color: white;
+  outline: none;
+  border: none;
+  padding: 10px 5px;
+  border-radius: 3px;
+}
+.main .section3 {
+  background-color: #509dd8;
+}
+h5 {
+  margin: 30px;
+}
+svg {
+  width: 100px;
+}
+.card-style {
+  width: 300px;
+  height: 350px;
+  background: #f3f3f0;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
 }
