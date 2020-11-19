@@ -10,24 +10,46 @@ h3,
 h2 {
   color: @color-Wtitle;
   text-align: @text-center;
+  .text-bold20;
 }
+
+h5 {
+  text-align: @text-center;
+  color: @color-prime;
+}
+
 .header {
   &__links a {
     display: @display-none;
   }
   &__search {
     background: url("../assets/students.jpeg") no-repeat center;
+    .flex-center();
   }
   &__search__form {
-    width: 400px;
+    .text-bold20;
+    max-width: 800px;
+    width: 95%;
     background-color: @color-bg;
     border-radius: 10px;
     padding: 20px 10px;
     .align-center;
+    input {
+      .button-reset;
+    }
+    button {
+      .text-bold20;
+
+      margin-top: 10px;
+      .button-reset;
+      color: @color-Wtitle;
+      background-color: @color-prime;
+    }
   }
-  button {
-    width: 200px;
+  .header__button {
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
     .align-center;
-    display: @display-none;
   }
 }

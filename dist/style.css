@@ -8,24 +8,59 @@ h3,
 h2 {
   color: white;
   text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+h5 {
+  text-align: center;
+  color: #d35749;
 }
 .header__links a {
   display: none;
 }
 .header__search {
   background: url("../assets/students.jpeg") no-repeat center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .header__search__form {
-  width: 400px;
-  background-color: #eee;
+  font-weight: bold;
+  font-size: 20px;
+  max-width: 800px;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
   padding: 20px 10px;
   margin-left: auto;
   margin-right: auto;
 }
-.header button {
-  width: 200px;
+.header__search__form input {
+  outline: none;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.header__search__form button {
+  font-size: 20px;
+  margin-top: 10px;
+  outline: none;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  background-color: #d35749;
+}
+.header .header__button {
+  margin-top: 30px;
+  width: 100px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
-  display: none;
 }
