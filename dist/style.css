@@ -116,6 +116,66 @@ h5 {
 svg {
   width: 100px;
 }
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer__media {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.footer__media div {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__media div span {
+  margin: 0 5px;
+}
+.footer__form {
+  width: 185px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__form form {
+  position: relative;
+}
+.footer__form form input {
+  width: 130px;
+  color: white;
+  outline: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(117, 116, 116, 0.459);
+  background-color: black;
+}
+.footer__form form input:placeholder {
+  color: white;
+}
+.footer__form form button {
+  border: none;
+  padding: 4px 10px;
+  background-color: rgba(117, 116, 116, 0.459);
+  color: white;
+  outline: none;
+  width: 50px;
+}
+.footer__contact {
+  width: 185px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.footer__about {
+  width: 185px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.footer__icons {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgba(117, 116, 116, 0.459);
+}
 .card-style {
   width: 300px;
   height: 350px;

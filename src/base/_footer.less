@@ -1,0 +1,59 @@
+.footer {
+  background-color: black;
+  color: @color-Wtitle;
+  &__media {
+    border-top: 1px solid @color-Wtitle;
+    border-bottom: 1px solid @color-Wtitle;
+
+    div {
+      width: 350px;
+      .align-center;
+      span {
+        margin: 0 5px;
+      }
+    }
+  }
+
+  &__form {
+    width: 185px;
+    .align-center;
+
+    form {
+      position: relative;
+
+      input {
+        width: 130px;
+        color: @color-Wtitle;
+        .btn;
+        background-color: black;
+        &:placeholder {
+          color: @color-Wtitle;
+        }
+      }
+      button {
+        border: none;
+        padding: 4px 10px;
+        background-color: @color-input;
+        color: @color-Wtitle;
+        outline: none;
+        width: 50px;
+      }
+    }
+  }
+
+  &__contact {
+    width: 185px;
+    .align-center;
+    text-align: center;
+  }
+  &__about {
+    width: 185px;
+    .align-center;
+    text-align: center;
+  }
+  &__icons {
+    .align-center;
+    text-align: center;
+    background-color: @color-input;
+  }
+}
