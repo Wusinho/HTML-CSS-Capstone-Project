@@ -6,5 +6,12 @@ h2 {
   color: white;
 }
 .header__search {
-  background-image: url(/assets/students.jpeg);
+  background: url("./assets/students.jpeg");
+}
+.header__links ul {
+  display: flex;
+  flex-direction: row;
+}
+.header__links strong {
+  display: none;
 }
