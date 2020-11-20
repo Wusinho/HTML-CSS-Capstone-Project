@@ -98,7 +98,7 @@ h5 {
 .main__box {
   margin-left: auto;
   margin-right: auto;
-  max-width: 850px;
+  max-width: 650px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
