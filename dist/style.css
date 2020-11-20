@@ -201,6 +201,7 @@ svg {
 }
 .footer__media div {
   padding: 10px 0;
+  width: 50px;
 }
 .footer__media div p {
   margin-left: auto;
