@@ -28,10 +28,13 @@ h2 {
 }
 .header__search {
   height: 800px;
-  background: url("../assets/kitchen.jpeg") no-repeat center;
+  background: url("../assets/kitchen.jpg") no-repeat center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.header__search h3 {
+  text-shadow: 1px 1px black;
 }
 .header__search__form {
   font-weight: bold;
@@ -92,6 +95,8 @@ h5 {
   margin-bottom: 30px;
   border-radius: 10px;
   text-align: center;
+  transition: 450ms;
+  transform-origin: center;
 }
 .main__section {
   color: white;
@@ -120,6 +125,7 @@ h5 {
 }
 .main .section1 {
   background-color: #e6ac5b;
+  margin-top: 60px;
 }
 .main .section1 button {
   color: #e6ac5b;
@@ -151,6 +157,12 @@ h5 {
 }
 svg {
   width: 100px;
+}
+.main__article:hover ~ .main__article {
+  transform: translate3d(0, 20px, 0);
+}
+.main:hover .main__article:hover {
+  transform: scale(1.1);
 }
 .footer {
   padding-top: 40px;
