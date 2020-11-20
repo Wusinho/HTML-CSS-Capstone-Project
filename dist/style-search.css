@@ -77,21 +77,25 @@ h2 {
   margin-right: auto;
 }
 .main--container {
-  max-width: 1000px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
+  background: url("../assets/building3.jpg") center no-repeat;
+  background-attachment: fixed;
 }
 main {
-  max-width: 800px;
+  max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
   padding: 40px 0;
+  backdrop-filter: blur(4px);
 }
 .form--container {
   margin-top: 30px;
   margin-bottom: 30px;
-  background-color: #98a4a5;
-  max-width: 600px;
+  background-color: rgba(152, 164, 165, 0.25);
+  backdrop-filter: blur(2px);
+  max-width: 90%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
@@ -139,13 +143,22 @@ main {
   background-color: #d35749;
 }
 .carousel--container {
-  background-color: lightgrey;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .carousel--container h4 {
+  color: white;
   font-size: 40px;
   text-align: center;
   padding: 20px 0 20px 0;
   font-weight: bold;
+  text-shadow: 2px 2px 2px #d35749;
+  letter-spacing: 10px;
+}
+.carousel {
+  border: 3px solid rgba(152, 164, 165, 0.6);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .carousel-caption {
   text-shadow: 2px 2px 4px #000000;
@@ -155,6 +168,23 @@ main {
 }
 .carousel-caption p {
   font-size: 16px;
+}
+@media only screen and (min-width: 768px) {
+  .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 20px;
+  }
+  label {
+    max-width: 200px;
+  }
+  button {
+    width: 10%;
+    height: 50px;
+  }
 }
 .footer {
   padding-top: 40px;

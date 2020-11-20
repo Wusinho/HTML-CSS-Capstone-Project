@@ -1,0 +1,115 @@
+.footer {
+  padding-top: 40px;
+  background-color: black;
+  color: @color-Wtitle;
+  &__media {
+    border-top: 1px solid @color-Wtitle;
+    border-bottom: 1px solid @color-Wtitle;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-around;
+
+    div {
+      width: 85%;
+      .align-center;
+      display: flex;
+      justify-content: space-around;
+      span {
+        font-size: 14px;
+      }
+    }
+    .icon {
+      padding: 20px;
+
+      p {
+        .align-center;
+        font-size: 40px;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 0 15px;
+      }
+    }
+  }
+
+  &__form {
+    width: 224px;
+    .align-center;
+    padding: 20px 0;
+    form {
+      position: relative;
+
+      input {
+        vertical-align: auto;
+        color: @color-Wtitle;
+        .btn;
+        background-color: black;
+        padding: 10px;
+        &:placeholder {
+          color: @color-Wtitle;
+        }
+      }
+      button {
+        border: none;
+        padding: 4px 10px;
+        background-color: @color-input;
+        color: @color-Wtitle;
+        outline: none;
+        width: 50px;
+        position: absolute;
+        right: 0;
+        padding: 10px 10px 14px 10px;
+        margin-right: 1px;
+      }
+    }
+  }
+
+  &__contact {
+    width: 40%;
+    .align-center;
+    text-align: center;
+  }
+  &__about {
+    width: 40%;
+    .align-center;
+    text-align: center;
+    padding: 20px;
+  }
+  &__icons {
+    .align-center;
+    padding: 25px 0 10px 0;
+    text-align: center;
+    background-color: @color-input;
+    h6 {
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    div i {
+      padding: 0 7% 0 7%;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer__media {
+    align-items: center;
+    div {
+      .align-reset;
+      width: 40%;
+      span {
+        font-size: 17px;
+      }
+    }
+    .icon {
+      width: 50px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .footer__container {
+    padding: 0 4%;
+    display: flex;
+    align-items: center;
+  }
+}
