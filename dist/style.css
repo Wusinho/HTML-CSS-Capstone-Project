@@ -5,15 +5,23 @@ nav {
   background-color: #d35749;
 }
 h3,
+span,
 h2 {
   color: white;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
 }
-h5 {
-  text-align: center;
-  color: #d35749;
+.header__nav {
+  padding: 10px 0;
+}
+.header__links {
+  padding-top: 20px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
 }
 .header__links a {
   display: none;
@@ -64,6 +72,10 @@ h5 {
   height: 50px;
   margin-left: auto;
   margin-right: auto;
+}
+h5 {
+  text-align: center;
+  color: #d35749;
 }
 .main {
   margin-top: 30px;

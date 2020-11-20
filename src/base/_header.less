@@ -3,21 +3,29 @@ nav {
 }
 
 h3,
+span,
 h2 {
   color: @color-Wtitle;
   text-align: @text-center;
   .text-bold20;
 }
 
-h5 {
-  text-align: @text-center;
-  color: @color-prime;
-}
-
 .header {
-  &__links a {
-    display: @display-none;
+  &__nav {
+    padding: 10px 0;
   }
+
+  &__links {
+    padding-top: 20px;
+    width: 200px;
+    .align-center;
+    display: flex;
+    justify-content: space-between;
+    a {
+      display: @display-none;
+    }
+  }
+
   &__search {
     height: 800px;
     background: url("../assets/students.jpeg") no-repeat center;
