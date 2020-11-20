@@ -17,7 +17,7 @@ h2 {
 }
 .header__links {
   padding-top: 20px;
-  width: 200px;
+  width: 375px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -27,7 +27,7 @@ h2 {
   display: none;
 }
 .header__search {
-  height: 800px;
+  height: 400px;
   background: url("../assets/kitchen.jpg") no-repeat center;
   display: flex;
   flex-direction: column;
@@ -79,6 +79,8 @@ h2 {
 h5 {
   text-align: center;
   color: #d35749;
+  font-size: 24px;
+  padding: 40px 0;
 }
 .main {
   margin-top: 30px;
@@ -96,7 +98,11 @@ h5 {
   border-radius: 10px;
   text-align: center;
   transition: 450ms;
-  transform-origin: center;
+  transform-origin: center top;
+}
+.main__article:hover {
+  transform: scale(1.1);
+  box-shadow: 14px 14px 5px -8px #d4d4d4;
 }
 .main__section {
   color: white;
@@ -160,9 +166,6 @@ svg {
 }
 .main__article:hover ~ .main__article {
   transform: translate3d(0, 20px, 0);
-}
-.main:hover .main__article:hover {
-  transform: scale(1.1);
 }
 .footer {
   padding-top: 40px;
