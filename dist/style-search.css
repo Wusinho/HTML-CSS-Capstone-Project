@@ -143,6 +143,15 @@ main {
   text-align: center;
   padding: 20px 0 20px 0;
 }
+.carousel-caption {
+  text-shadow: 2px 2px 4px #000000;
+}
+.carousel-caption h5 {
+  font-size: 20px;
+}
+.carousel-caption p {
+  font-size: 16px;
+}
 .footer {
   padding-top: 40px;
   background-color: black;
