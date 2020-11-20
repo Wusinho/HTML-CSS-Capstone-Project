@@ -28,7 +28,7 @@ h2 {
 }
 .header__search {
   height: 400px;
-  background: url("../assets/kitchen.jpg") no-repeat center;
+  background: url("../assets/family.jpg") no-repeat center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,11 +120,9 @@ h5 {
   padding: 30px 15px;
   display: flex;
   align-items: center;
-  margin-left: 30px;
-  margin-right: 30px;
 }
 .main__section article {
-  width: 60%;
+  width: 55%;
   padding-left: 20px;
 }
 .main__section article h6 {
@@ -189,9 +187,13 @@ svg {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
 }
 .footer__media div {
-  width: 70%;
+  width: 380px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
