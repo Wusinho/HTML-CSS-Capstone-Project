@@ -28,7 +28,7 @@ h2 {
 }
 .header__search {
   height: 800px;
-  background: url("../assets/students.jpeg") no-repeat center;
+  background: url("../assets/kitchen.jpeg") no-repeat center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,9 +96,27 @@ h5 {
 .main__section {
   color: white;
   padding: 30px 15px;
+  display: flex;
+  align-items: center;
+}
+.main__section article {
+  width: 60%;
+  padding-left: 20px;
+}
+.main__section article h6 {
+  font-size: 26px;
+  padding: 10px 0 20px 0;
+}
+.main__section article p {
+  font-size: 16px;
+}
+.main__section article button {
+  margin-top: 30px;
 }
 .main__section svg {
   border-radius: 50%;
+  width: 30%;
+  margin: 15px;
 }
 .main .section1 {
   background-color: #e6ac5b;
@@ -112,8 +130,6 @@ h5 {
   border-radius: 3px;
 }
 .main .section1 svg {
-  width: 100px;
-  height: 100px;
   background-color: #98a4a5;
 }
 .main .section2 {
@@ -137,35 +153,49 @@ svg {
   width: 100px;
 }
 .footer {
+  padding-top: 40px;
   background-color: black;
   color: white;
 }
 .footer__media {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+  padding: 20px 0;
 }
 .footer__media div {
-  width: 350px;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  justify-content: space-around;
 }
-.footer__media div span {
-  margin: 0 5px;
+.footer__media div {
+  padding: 10px 0;
+}
+.footer__media div p {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0 15px;
 }
 .footer__form {
-  width: 185px;
+  width: 224px;
   margin-left: auto;
   margin-right: auto;
+  padding: 20px 0;
 }
 .footer__form form {
   position: relative;
 }
 .footer__form form input {
-  width: 130px;
+  vertical-align: auto;
   color: white;
   outline: rgba(255, 255, 255, 0.7);
   border: 1px solid rgba(117, 116, 116, 0.459);
   background-color: black;
+  padding: 10px;
 }
 .footer__form form input:placeholder {
   color: white;
@@ -177,24 +207,37 @@ svg {
   color: white;
   outline: none;
   width: 50px;
+  position: absolute;
+  right: 0;
+  padding: 10px 10px 14px 10px;
+  margin-right: 1px;
 }
 .footer__contact {
-  width: 185px;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 .footer__about {
-  width: 185px;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding: 20px;
 }
 .footer__icons {
   margin-left: auto;
   margin-right: auto;
+  padding: 25px 0 10px 0;
   text-align: center;
   background-color: rgba(117, 116, 116, 0.459);
+}
+.footer__icons h6 {
+  margin-top: 20px;
+  font-size: 14px;
+}
+.footer__icons div i {
+  padding: 0 7% 0 7%;
 }
 .card-style {
   width: 300px;
