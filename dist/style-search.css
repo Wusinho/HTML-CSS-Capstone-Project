@@ -132,6 +132,11 @@ main {
   border-radius: 3px;
   background-color: #d35749;
 }
+.carousel--container h4 {
+  padding: 40px 0;
+  font-size: 24px;
+  text-align: center;
+}
 .footer {
   padding-top: 40px;
   background-color: black;
