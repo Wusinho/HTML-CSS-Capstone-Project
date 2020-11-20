@@ -81,6 +81,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   margin: 30px 0;
+  overflow: hidden;
 }
 .info {
   width: 95%;
@@ -95,6 +96,11 @@ h2 {
 }
 .info__box .span {
   color: #509dd8;
+}
+.map-frame {
+  width: 80%;
+  height: 300px;
+  margin: 10px auto;
 }
 .footer {
   padding-top: 40px;
