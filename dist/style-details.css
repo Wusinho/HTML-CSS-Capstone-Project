@@ -76,116 +76,6 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
-.main--container {
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
-  background: url("../assets/building3.jpg") center no-repeat;
-  background-attachment: fixed;
-}
-main {
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 40px 0;
-  backdrop-filter: blur(4px);
-}
-.form--container {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color: rgba(152, 164, 165, 0.25);
-  backdrop-filter: blur(2px);
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-}
-.form--container h4 {
-  font-size: 24px;
-  padding-top: 30px;
-  text-align: center;
-}
-.form {
-  padding: 30px 0;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.form label {
-  display: block;
-}
-.form label input {
-  width: 100%;
-  display: block;
-  outline: none;
-  border: none;
-  padding: 10px 5px;
-  border-radius: 3px;
-}
-.form label select {
-  display: block;
-  width: 100%;
-  background-color: white;
-  outline: none;
-  border: none;
-  padding: 10px 5px;
-  border-radius: 3px;
-}
-.form button {
-  margin-top: 30px;
-  padding-top: 20px;
-  display: block;
-  width: 100%;
-  outline: none;
-  border: none;
-  padding: 10px 5px;
-  border-radius: 3px;
-  background-color: #d35749;
-}
-.carousel--container {
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.carousel--container h4 {
-  color: white;
-  font-size: 40px;
-  text-align: center;
-  padding: 20px 0 20px 0;
-  font-weight: bold;
-  text-shadow: 2px 2px 2px #d35749;
-  letter-spacing: 10px;
-}
-.carousel {
-  border: 3px solid rgba(152, 164, 165, 0.6);
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-}
-.carousel-caption {
-  text-shadow: 2px 2px 4px #000000;
-}
-.carousel-caption h5 {
-  font-size: 20px;
-}
-.carousel-caption p {
-  font-size: 16px;
-}
-@media only screen and (min-width: 768px) {
-  .form {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 0 20px;
-  }
-  label {
-    max-width: 200px;
-  }
-  button {
-    width: 10%;
-    height: 50px;
-  }
-}
 .footer {
   padding-top: 40px;
   background-color: black;
@@ -230,29 +120,28 @@ main {
 .footer__form form {
   position: relative;
 }
-.footer__form form .input {
-  width: 222px;
+.footer__form form input {
   vertical-align: auto;
   color: white;
   outline: rgba(255, 255, 255, 0.7);
   border: 1px solid rgba(117, 116, 116, 0.459);
   background-color: black;
   padding: 10px;
-  font-size: 15px;
 }
-.footer__form form .input:placeholder {
+.footer__form form input:placeholder {
   color: white;
 }
-.footer__form form .button {
+.footer__form form button {
   border: none;
-  padding: 2px 8px;
+  padding: 4px 10px;
   background-color: rgba(117, 116, 116, 0.459);
   color: white;
   outline: none;
+  width: 50px;
   position: absolute;
   right: 0;
-  padding: 10px 8px 10px 10px;
-  margin-right: 2px;
+  padding: 10px 10px 14px 10px;
+  margin-right: 1px;
 }
 .footer__contact {
   width: 40%;
@@ -282,12 +171,6 @@ main {
   padding: 0 7% 0 7%;
 }
 @media only screen and (min-width: 768px) {
-  .footer h3 {
-    font-size: 20px;
-  }
-  .footer p {
-    font-size: 16px;
-  }
   .footer__media {
     align-items: center;
   }
@@ -305,18 +188,9 @@ main {
     margin: 0;
   }
   .footer__container {
-    padding: 0 1%;
+    padding: 0 4%;
     display: flex;
     align-items: center;
-    font-size: 20px;
-  }
-  .input {
-    max-width: 450px;
-  }
-  .button {
-    height: 43px;
-    width: 70px;
-    margin-right: 0;
   }
 }
 .card-style {
