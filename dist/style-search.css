@@ -230,7 +230,8 @@ main {
 .footer__form form {
   position: relative;
 }
-.footer__form form input {
+.footer__form form .input {
+  width: 222px;
   vertical-align: auto;
   color: white;
   outline: rgba(255, 255, 255, 0.7);
@@ -238,20 +239,19 @@ main {
   background-color: black;
   padding: 10px;
 }
-.footer__form form input:placeholder {
+.footer__form form .input:placeholder {
   color: white;
 }
-.footer__form form button {
+.footer__form form .button {
   border: none;
-  padding: 4px 10px;
+  padding: 2px 8px;
   background-color: rgba(117, 116, 116, 0.459);
   color: white;
   outline: none;
-  width: 50px;
   position: absolute;
   right: 0;
   padding: 10px 10px 14px 10px;
-  margin-right: 1px;
+  margin-right: 2px;
 }
 .footer__contact {
   width: 40%;
