@@ -97,6 +97,9 @@ h5 {
   color: white;
   padding: 30px 15px;
 }
+.main__section svg {
+  border-radius: 50%;
+}
 .main .section1 {
   background-color: #e6ac5b;
 }
@@ -107,6 +110,10 @@ h5 {
   border: none;
   padding: 10px 5px;
   border-radius: 3px;
+}
+.main .section1 svg {
+  width: 100px;
+  height: 100px;
 }
 .main .section2 {
   background-color: #98a4a5;
