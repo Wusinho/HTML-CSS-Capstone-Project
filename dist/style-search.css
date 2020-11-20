@@ -76,10 +76,16 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
-main {
-  max-width: 1400px;
+.main--container {
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+main {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0;
 }
 .form--container {
   margin-top: 30px;
@@ -133,9 +139,9 @@ main {
   background-color: #d35749;
 }
 .carousel--container h4 {
-  padding: 40px 0;
-  font-size: 24px;
+  font-size: 40px;
   text-align: center;
+  padding: 20px 0 20px 0;
 }
 .footer {
   padding-top: 40px;
