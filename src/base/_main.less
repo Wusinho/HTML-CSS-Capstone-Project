@@ -13,11 +13,17 @@ h5 {
 
 .main {
   margin-top: 30px;
-  display: flex;
 
-  flex-direction: row;
-  justify-content: space-around;
-  flex-flow: wrap;
+  &__container {
+    .align-center;
+    max-width: 850px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+
   transition: 450ms;
 
   .align-center;

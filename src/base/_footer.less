@@ -12,17 +12,20 @@
     justify-content: space-around;
 
     div {
-      width: 380px;
+      width: 85%;
       .align-center;
       display: flex;
       justify-content: space-around;
+      span {
+        font-size: 14px;
+      }
     }
-    div {
-      padding: 10px 0;
-      width: 50px;
+    .icon {
+      padding: 20px;
+
       p {
         .align-center;
-        font-size: 35px;
+        font-size: 40px;
         border: 1px solid white;
         border-radius: 50%;
         padding: 0 15px;
@@ -85,5 +88,28 @@
     div i {
       padding: 0 7% 0 7%;
     }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer__media {
+    align-items: center;
+    div {
+      .align-reset;
+      width: 40%;
+      span {
+        font-size: 17px;
+      }
+    }
+    .icon {
+      width: 50px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .footer__container {
+    padding: 0 4%;
+    display: flex;
+    align-items: center;
   }
 }

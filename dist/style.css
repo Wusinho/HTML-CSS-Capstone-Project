@@ -90,13 +90,18 @@ h5 {
 }
 .main {
   margin-top: 30px;
+  transition: 450ms;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main__container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 850px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
-  transition: 450ms;
-  margin-left: auto;
-  margin-right: auto;
 }
 .main__article {
   margin-left: auto;
@@ -193,20 +198,22 @@ svg {
   justify-content: space-around;
 }
 .footer__media div {
-  width: 380px;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: space-around;
 }
-.footer__media div {
-  padding: 10px 0;
-  width: 50px;
+.footer__media div span {
+  font-size: 14px;
 }
-.footer__media div p {
+.footer__media .icon {
+  padding: 20px;
+}
+.footer__media .icon p {
   margin-left: auto;
   margin-right: auto;
-  font-size: 35px;
+  font-size: 40px;
   border: 1px solid white;
   border-radius: 50%;
   padding: 0 15px;
@@ -269,6 +276,29 @@ svg {
 }
 .footer__icons div i {
   padding: 0 7% 0 7%;
+}
+@media only screen and (min-width: 768px) {
+  .footer__media {
+    align-items: center;
+  }
+  .footer__media div {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 40%;
+  }
+  .footer__media div span {
+    font-size: 17px;
+  }
+  .footer__media .icon {
+    width: 50px;
+    padding: 0;
+    margin: 0;
+  }
+  .footer__container {
+    padding: 0 4%;
+    display: flex;
+    align-items: center;
+  }
 }
 .card-style {
   width: 300px;
