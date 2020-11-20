@@ -27,7 +27,7 @@ h2 {
   display: none;
 }
 .header__search {
-  height: 400px;
+  height: 800px;
   background: url("../assets/family.jpg") no-repeat center;
   display: flex;
   flex-direction: column;
