@@ -97,9 +97,13 @@ h2 {
 .info__box .span {
   color: #509dd8;
 }
+.map {
+  display: flex;
+  justify-content: center;
+}
 .map-frame {
-  width: 80%;
-  height: 300px;
+  max-width: 80%;
+  height: 500px;
   margin: 10px auto;
 }
 .footer {
