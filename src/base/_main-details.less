@@ -1,3 +1,10 @@
+.main--container {
+  max-width: 1024px;
+  .align-center;
+  overflow: hidden;
+  padding: 0;
+}
+
 .main {
   max-width: 1024px;
   .align-center;
@@ -6,25 +13,32 @@
 }
 
 .info {
-  width: 95%;
+  width: 85%;
+  padding: 35px;
   .align-center;
+
+  h4 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
   &__box {
-    width: 80%;
+    padding: 10px;
     .align-center;
-    background-color: @color-prime;
-    .span {
-      color: @color-c3;
+    background-color: rgba(152, 164, 165, 0.4);
+    p {
+      text-align: center;
+      .span {
+        color: @color-c3;
+      }
     }
   }
 }
 
-.map {
-  display: flex;
-  justify-content: center;
-
-  &-frame {
-    max-width: 80%;
-    height: 500px;
-    margin: 10px auto;
-  }
+.gmap_canvas {
+  overflow: hidden;
+  background: none;
+  height: 500px;
+  width: 600px;
+  .align-center;
 }
