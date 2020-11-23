@@ -49,7 +49,7 @@ This project is an online house directory website, which contains 3 pages:
 
 Here you will find a Live Demo page, any comment is well received.
 
-[Live Demo Link]()
+[Live Demo Link]( https://wusinho.github.io/HTML-CSS-Capstone-Project/)
 
 ## Authors
 
