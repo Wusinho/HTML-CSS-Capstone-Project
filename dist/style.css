@@ -81,6 +81,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
+  background-color: rgba(199, 199, 199, 0.46);
 }
 h5 {
   text-align: center;
@@ -105,6 +106,7 @@ h5 {
   flex-flow: wrap;
 }
 .main__article {
+  border: 2px solid lightgrey;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
