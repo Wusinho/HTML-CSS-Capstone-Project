@@ -51,6 +51,10 @@ Here you will find a Live Demo page, any comment is well received.
 
 [Live Demo Link]( https://wusinho.github.io/HTML-CSS-Capstone-Project/)
 
+## Video Demo
+
+[Video Demo Link] https://www.loom.com/share/df408daec9f549b2988b28fcb51a3b25
+
 ## Authors
 
 Please feel free to contact me at any time:
