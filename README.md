@@ -69,7 +69,7 @@ Please feel free to contact me at any time:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/Wusinho/HTML-CSS-Capstone-Project/issues).
 
 ## Show your support
 
