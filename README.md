@@ -59,7 +59,7 @@ Here you will find a Live Demo page, any comment is well received.
 
 ## Video Demo
 
-[Video Demo Link] (https://www.loom.com/share/df408daec9f549b2988b28fcb51a3b25)
+[Video Demo Link](https://www.loom.com/share/df408daec9f549b2988b28fcb51a3b25)
 
 ## Authors
 
