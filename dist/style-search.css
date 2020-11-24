@@ -121,7 +121,6 @@ a {
   }
 }
 .main--container {
-  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   background: url("../assets/building3.jpg") center no-repeat;

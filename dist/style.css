@@ -121,7 +121,6 @@ a {
   }
 }
 .main--container {
-  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
@@ -296,8 +295,9 @@ img {
   width: 50px;
   position: absolute;
   right: 0;
-  padding: 10px 10px 14px 10px;
-  margin-right: 1px;
+  padding: 10px 10px 13px 10px;
+  margin-right: 3px;
+  margin-top: 1px;
 }
 .footer__contact {
   width: 40%;
@@ -347,6 +347,14 @@ img {
     padding: 0 4%;
     display: flex;
     align-items: center;
+  }
+  .footer__form form button {
+    margin-right: 1px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .footer__form form button {
+    margin-right: 3px;
   }
 }
 .card-style {
