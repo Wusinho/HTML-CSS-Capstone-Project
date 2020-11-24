@@ -45,6 +45,12 @@ This project is an online house directory website, which contains 3 pages:
 - ScreenShot for the desktop version of the page:
   ![screenshot](./assets/details_SS.png)
 
+## Getting Started
+
+- Open CMD
+- write this command: git clone https://github.com/Wusinho/HTML-CSS-Capstone-Project.git
+- Open the containing folder then open index.html
+
 ## Live Demo
 
 Here you will find a Live Demo page, any comment is well received.
@@ -53,7 +59,7 @@ Here you will find a Live Demo page, any comment is well received.
 
 ## Video Demo
 
-[Video Demo Link] https://www.loom.com/share/df408daec9f549b2988b28fcb51a3b25
+[Video Demo Link] (https://www.loom.com/share/df408daec9f549b2988b28fcb51a3b25)
 
 ## Authors
 
@@ -82,4 +88,4 @@ Also, the advice is well received.
 
 ## 📝 License
 
-This project is [MIT](LICENSE.md) licensed.
+This project is [MIT](LICENSE) licensed.
