@@ -45,3 +45,15 @@
   border: 2px solid lightgrey;
   .align-center;
 }
+
+@media only screen and (min-width: 768px) {
+  .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, auto);
+  }
+
+  h4 {
+    grid-column: 1 / span 2;
+  }
+}
