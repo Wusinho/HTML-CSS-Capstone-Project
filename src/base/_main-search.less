@@ -1,0 +1,181 @@
+.main--container {
+  // max-width: 1400px;
+  .align-center;
+  background: url("../assets/building3.jpg") center no-repeat;
+  background-attachment: fixed;
+}
+
+main {
+  max-width: 1024px;
+  .align-center;
+  padding: 40px 0;
+  backdrop-filter: blur(4px);
+  h5 {
+    text-align: center;
+    color: @color-Wtitle;
+    text-shadow: -1px 0px 1px black;
+  }
+}
+
+.form--container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(152, 164, 165, 0.25);
+  backdrop-filter: blur(2px);
+
+  max-width: 90%;
+  .align-center;
+  border-radius: 5px;
+  h4 {
+    font-size: 24px;
+    padding-top: 30px;
+    text-align: center;
+  }
+}
+
+.form {
+  padding: 30px 0;
+  width: 80%;
+  .align-center;
+  text-shadow: -1px 0px 1px @color-Wtitle;
+
+  label {
+    display: block;
+    input {
+      width: 100%;
+      display: block;
+      .btn-r;
+    }
+    select {
+      display: block;
+      width: 100%;
+      outline: none;
+      background-color: white;
+      .btn-r;
+    }
+  }
+  button {
+    margin-top: 30px;
+    padding-top: 20px;
+    display: block;
+    width: 100%;
+    .btn-r;
+    background-color: @color-prime;
+  }
+
+  button:last-child {
+    background-color: @color-btn1;
+  }
+}
+
+.carousel--container {
+  max-width: 800px;
+  .align-center;
+
+  h4 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px @color-prime;
+    letter-spacing: 10px;
+  }
+}
+
+.carousel {
+  border: 3px solid rgba(152, 164, 165, 0.6);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.carousel-caption {
+  text-shadow: 2px 2px 4px #000000;
+  h5 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+.pics--container {
+  max-width: 80%;
+  .align-center;
+  background: url("../assets/apartment.jpg") center;
+  cursor: pointer;
+}
+.pics__box {
+  color: white;
+  padding: 20px;
+  background-color: black;
+  width: 100%;
+  opacity: 0.7;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(8, 8, 8, 1) 28%,
+    rgba(91, 91, 91, 0.01) 83%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: 600ms;
+}
+
+.pc2 {
+  background: url("../assets/beach.jpg") center;
+}
+
+.pc3 {
+  background: url("../assets/country.jpg") center;
+}
+
+.pics__box:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(8, 8, 8, 1) 19%,
+    rgba(91, 91, 91, 0.01) 57%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: 600ms;
+}
+
+@media only screen and (min-width: 768px) {
+  .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 20px;
+  }
+  label {
+    max-width: 200px;
+  }
+  button {
+    width: 10%;
+    height: 50px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .form {
+    button {
+      display: block;
+      width: 100px;
+      .btn-r;
+      margin-top: 20px;
+    }
+    button:last-child {
+      font-size: 14px;
+    }
+  }
+
+  .card--container {
+    display: flex;
+  }
+
+  .pics--container {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}

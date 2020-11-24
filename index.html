@@ -3,7 +3,187 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HTML & CSS Capstone Project</title>
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="main--container">
+      <header class="header">
+        <nav class="header__nav">
+          <h1>
+            <i class="fas fa-map-marker-alt"></i>
+            HOME
+          </h1>
+          <div class="header__links">
+            <span>
+              <i class="fas fa-search-location"></i>
+
+              <a class="header-links-text" href="search.html">Clinics</a>
+            </span>
+            <span>
+              <i onclick="location.href='#about-us';" class="far fa-user"></i>
+              <a class="header-links-text" href="#about-us">About</a>
+            </span>
+            <span>
+              <i class="fas fa-rss"></i>
+              <a href="#">Blog</a>
+            </span>
+            <span>
+              <i onclick="location.href='index.html';" class="fas fa-bars"></i>
+              <a class="header-links-text" href="index.html">Home</a>
+            </span>
+          </div>
+        </nav>
+        <div class="header__search">
+          <h3>THERE IS NO OTHER PLACE LIKE HOME</h3>
+          <form class="header__search__form">
+            <h4>SEARCH FOR YOUR DREAM HOUSE:</h4>
+            <div class="form__btn">
+              <input type="text" />
+              <button type="button" onclick="location.href='search.html'">
+                SEARCH
+              </button>
+            </div>
+          </form>
+
+          <button type="button" class="header__button">How it works</button>
+        </div>
+      </header>
+
+      <main class="main">
+        <h5>HOME WORKS IN FOUR SIMPLE STEPS</h5>
+        <div class="main__box">
+          <article class="main__article">
+            <img src="./assets/search.svg" alt="search-pic" />
+            <h6>1-SEARCH</h6>
+            <p>
+              Its simple. On pata shule homepage, enter the name of a school you
+              are looking for and click on search. Alternatively click on the
+              search link on the top menu to view the list of all schools.
+            </p>
+          </article>
+
+          <article class="main__article">
+            <img src="./assets/locate.svg" alt="locate-img" />
+            <h6>2-LOCATE</h6>
+            <p>
+              Get to see where the school is located by clicking on the school
+              profile. Its even more exciting. You can get the directions from
+              anywhere in the country
+            </p>
+          </article>
+
+          <article class="main__article">
+            <img src="./assets/apply.svg" alt="apply-img" />
+            <h6>3-APPLY</h6>
+            <p>
+              Apply for you childs interview to the school of your choice. Click
+              on the APPLY button to get the application form. We also follow up
+              on the application to make sure you get a reply on time.
+            </p>
+          </article>
+
+          <article class="main__article">
+            <img src="./assets/relax.svg" alt="relax-img" />
+            <h6>4-RELAX</h6>
+            <p>
+              Once your child gets admitted. You can now relax. You can check
+              out our blog to see what we recommend when school hunting.
+            </p>
+          </article>
+        </div>
+        <section class="main__section section1">
+          <article>
+            <h6>Over 100,000 Users registered with us</h6>
+            <p>Find a your own place by using our filtered search engine</p>
+            <button type="button">Find a Home</button>
+          </article>
+
+          <img src="./assets/map.svg" alt="maps-img" />
+        </section>
+
+        <section class="main__section section2">
+          <article>
+            <h6>
+              No need to leave your house, you can have a coffee in the
+              meantime.
+            </h6>
+            <p>Just press or click on the search button and Youre all set</p>
+            <button type="button">Find your place</button>
+          </article>
+          <img src="./assets/coffee2.svg" alt="coffe-img" />
+        </section>
+
+        <section class="main__section section3">
+          <article>
+            <h6>Anytime Anywhere Any way!</h6>
+            <p>
+              Very convenient platforms that cut across any device including our
+              mobile ready web app adn our mobile app coming soon to your app
+              store
+            </p>
+          </article>
+
+          <img src="./assets/cellphone.svg" alt="cell-img" />
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__media">
+          <div>
+            <a href="#"><span>HOME</span></a>
+            <a href="#"><span>SEARCH</span></a>
+            <a href="#"><span>ABOUT US</span></a>
+            <a href="#"><span>ADVERTISE</span></a>
+          </div>
+          <div class="icon">
+            <p><i class="fas fa-map-marker-alt"></i></p>
+          </div>
+          <div>
+            <a href="#"><span>FACEBOOK</span></a>
+            <a href="#"><span>TWITTER</span></a>
+            <a href="#"><span>BLOG</span></a>
+            <a href="#"><span>GOOGLE +</span></a>
+          </div>
+        </div>
+        <div class="footer__container">
+          <div class="footer__form">
+            <h3>SUBSCRIPTION</h3>
+            <form>
+              <input type="text" placeholder="your@email.com" />
+              <button type="button">Send</button>
+            </form>
+          </div>
+
+          <article class="footer__contact">
+            <a onclick="location.href='details.html'"><h3>CONTACT</h3></a>
+            <p>Contact us at: info@patashule.com</p>
+          </article>
+          <article class="footer__about">
+            <h3>ABOUT</h3>
+            <p>The Biggest online school search engine in Kenya</p>
+          </article>
+        </div>
+        <div class="footer__icons">
+          <div>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </div>
+          <h6>@2020 Heber Lazo - All Rights Reserved</h6>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/a4590f3e3a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

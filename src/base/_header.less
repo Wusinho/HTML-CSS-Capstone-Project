@@ -1,0 +1,115 @@
+nav {
+  background-color: @color-prime;
+}
+
+h1,
+h3,
+span,
+h2 {
+  color: @color-Wtitle;
+  text-align: @text-center;
+  .text-bold20;
+}
+
+.header {
+  &__nav {
+    padding: 10px 0;
+  }
+
+  &__links {
+    padding: 20px 10px 0 10px;
+    width: 375px;
+
+    .align-center;
+    display: flex;
+    justify-content: space-between;
+    a {
+      display: @display-none;
+    }
+  }
+
+  &__search {
+    height: 800px;
+    background: url("../assets/family.jpg") no-repeat center;
+    .flex-center;
+    h3 {
+      text-shadow: 1px 1px black;
+    }
+  }
+  &__search__form {
+    .text-bold20;
+    max-width: 800px;
+    width: 95%;
+    background-color: @color-bg;
+    border-radius: 10px;
+    padding: 20px 10px;
+    .align-center;
+    input {
+      .button-reset;
+      padding-left: 20px;
+    }
+    button {
+      .text-bold20;
+
+      margin-top: 10px;
+      .button-reset;
+      color: @color-Wtitle;
+      background-color: @color-prime;
+    }
+  }
+  .header__button {
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    .align-center;
+  }
+}
+
+.fas,
+.far {
+  cursor: pointer;
+  transition: 600ms;
+}
+
+.fas:hover,
+.far:hover {
+  transform: scale(1.3);
+  transition: 600ms;
+
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+  }
+  .header__links {
+    padding: 0;
+  }
+  .form__btn {
+    position: relative;
+
+    button {
+      position: absolute;
+      right: 0;
+      width: 100px;
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .header__links {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 30px;
+  }
+}
