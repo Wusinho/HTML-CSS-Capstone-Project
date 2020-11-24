@@ -56,6 +56,7 @@ h2 {
   width: 100%;
   font-weight: bold;
   border-radius: 5px;
+  padding-left: 20px;
 }
 .header__search__form button {
   font-size: 20px;
@@ -77,6 +78,48 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+.fas,
+.far {
+  cursor: pointer;
+  transition: 600ms;
+}
+.fas:hover,
+.far:hover {
+  transform: scale(1.3);
+  transition: 600ms;
+  color: black;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+  }
+  .header__links {
+    padding: 0;
+  }
+  .form__btn {
+    position: relative;
+  }
+  .form__btn button {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header__links {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 30px;
+  }
+}
 .main--container {
   max-width: 1400px;
   margin-left: auto;
@@ -90,6 +133,11 @@ main {
   margin-right: auto;
   padding: 40px 0;
   backdrop-filter: blur(4px);
+}
+main h5 {
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0px 1px black;
 }
 .form--container {
   margin-top: 30px;
@@ -144,6 +192,9 @@ main {
   border-radius: 3px;
   background-color: #d35749;
 }
+.form button:last-child {
+  background-color: #457db4;
+}
 .carousel--container {
   max-width: 800px;
   margin-left: auto;
@@ -171,6 +222,31 @@ main {
 .carousel-caption p {
   font-size: 16px;
 }
+.pics--container {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../assets/apartment.jpg") center;
+}
+.pics__box {
+  color: white;
+  padding: 20px;
+  background-color: black;
+  width: 100%;
+  opacity: 0.7;
+  background: linear-gradient(90deg, #000000 0%, #080808 28%, rgba(91, 91, 91, 0.01) 83%, rgba(255, 255, 255, 0) 100%);
+  transition: 600ms;
+}
+.pc2 {
+  background: url("../assets/beach.jpg") center;
+}
+.pc3 {
+  background: url("../assets/country.jpg") center;
+}
+.pics__box:hover {
+  background: linear-gradient(90deg, #000000 0%, #080808 19%, rgba(91, 91, 91, 0.01) 57%, rgba(255, 255, 255, 0) 100%);
+  transition: 600ms;
+}
 @media only screen and (min-width: 768px) {
   .form {
     display: flex;
@@ -186,6 +262,27 @@ main {
   button {
     width: 10%;
     height: 50px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .form button {
+    display: block;
+    width: 100px;
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+  }
+  .form button:last-child {
+    font-size: 14px;
+  }
+  .card--container {
+    display: flex;
+  }
+  .pics--container {
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 .footer {

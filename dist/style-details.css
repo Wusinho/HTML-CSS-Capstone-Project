@@ -56,6 +56,7 @@ h2 {
   width: 100%;
   font-weight: bold;
   border-radius: 5px;
+  padding-left: 20px;
 }
 .header__search__form button {
   font-size: 20px;
@@ -76,6 +77,48 @@ h2 {
   height: 50px;
   margin-left: auto;
   margin-right: auto;
+}
+.fas,
+.far {
+  cursor: pointer;
+  transition: 600ms;
+}
+.fas:hover,
+.far:hover {
+  transform: scale(1.3);
+  transition: 600ms;
+  color: black;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+  .header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+  }
+  .header__links {
+    padding: 0;
+  }
+  .form__btn {
+    position: relative;
+  }
+  .form__btn button {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header__links {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 30px;
+  }
 }
 .main--container {
   max-width: 1400px;

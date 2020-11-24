@@ -10,6 +10,11 @@ main {
   .align-center;
   padding: 40px 0;
   backdrop-filter: blur(4px);
+  h5 {
+    text-align: center;
+    color: @color-Wtitle;
+    text-shadow: -1px 0px 1px black;
+  }
 }
 
 .form--container {
@@ -57,6 +62,10 @@ main {
     .btn-r;
     background-color: @color-prime;
   }
+
+  button:last-child {
+    background-color: @color-btn1;
+  }
 }
 
 .carousel--container {
@@ -89,6 +98,46 @@ main {
   }
 }
 
+.pics--container {
+  max-width: 80%;
+  .align-center;
+  background: url("../assets/apartment.jpg") center;
+}
+.pics__box {
+  color: white;
+  padding: 20px;
+  background-color: black;
+  width: 100%;
+  opacity: 0.7;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(8, 8, 8, 1) 28%,
+    rgba(91, 91, 91, 0.01) 83%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: 600ms;
+}
+
+.pc2 {
+  background: url("../assets/beach.jpg") center;
+}
+
+.pc3 {
+  background: url("../assets/country.jpg") center;
+}
+
+.pics__box:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(8, 8, 8, 1) 19%,
+    rgba(91, 91, 91, 0.01) 57%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: 600ms;
+}
+
 @media only screen and (min-width: 768px) {
   .form {
     display: flex;
@@ -104,5 +153,28 @@ main {
   button {
     width: 10%;
     height: 50px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .form {
+    button {
+      display: block;
+      width: 100px;
+      .btn-r;
+      margin-top: 20px;
+    }
+    button:last-child {
+      font-size: 14px;
+    }
+  }
+
+  .card--container {
+    display: flex;
+  }
+
+  .pics--container {
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
