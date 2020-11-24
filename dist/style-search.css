@@ -227,6 +227,7 @@ main h5 {
   margin-left: auto;
   margin-right: auto;
   background: url("../assets/apartment.jpg") center;
+  cursor: pointer;
 }
 .pics__box {
   color: white;
