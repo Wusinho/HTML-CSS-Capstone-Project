@@ -18,7 +18,7 @@ This project is an online house directory website, which contains 3 pages:
 - Fontawesome.
 - CSS animation.
 - Bootstrap
-- Less
+- Less (Pre - Processort)
 
 # Home page:
 
